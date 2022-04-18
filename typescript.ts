@@ -91,7 +91,21 @@ interface CatArmy{
     magic?: string
 }
 
+//Classes in TypeScript
 
+class Animal {
+    public sing: string ='lalalala'
+    constructor(sound: string) {
+        this.sing = sound
+    }
 
+    greet(): string{
+        return `Hello ${this.sing}` 
+   }
+}
+
+let Lion = new Animal('roooarr');
+
+// console.log(Lion.sing)
 
 
