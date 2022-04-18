@@ -76,6 +76,13 @@ let fightRobotArmy2=(robots: {  count: number, // Both fightRobotArmy and fightR
     console.log('FIGHT!');
 }
 
+let fightRobotArmy3=(robots: RobotArmy): void =>{
+    console.log('FIGHT!');
+}
+
+let fightRobotArmy4 = (robots: RobotArmy): number => {
+    return 4
+}
 
 
 interface CatArmy{

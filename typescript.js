@@ -45,3 +45,6 @@ var fightRobotArmy = function (robots) {
 var fightRobotArmy2 = function (robots) {
     console.log('FIGHT!');
 };
+var fightRobotArmy3 = function (robots) {
+    console.log('FIGHT!');
+};
